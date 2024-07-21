@@ -1,103 +1,95 @@
 # Bengaluru_House_price_Prediction_deploy
 it is whole project of ml prediction then Deploy
 Bengaluru House Price Prediction
-Project Overview
+##Project Overview
 This project aims to predict house prices in Bengaluru using various regression models. The process involves data cleaning, feature engineering, model training, evaluation, and deployment through a web interface.
 
-Table of Contents
-Installation
-Data Description
-Data Preprocessing
-Model Training
-Model Evaluation
-Model Deployment
-Usage
-Contributing
-License
-Installation
-Clone the repository:
+##Table of Contents
+1.Installation\
+2.Data Description\
+3.Data Preprocessing\
+4.Model Training\
+5.Model Evaluation\
+6.Model Deployment\
+7.Usage\
+8.Contributing\
+9.License\
+10.Installation\
+#Clone the repository:
 
 bash
 Copy code
 git clone https://github.com/yourusername/baengaluru_house_price_prediction.git
-Navigate to the project directory:
+##Navigate to the project directory:
 
-bash
-Copy code
-cd baengaluru_house_price_prediction
-Install the required packages:
+bash\
+Copy code\
+cd baengaluru_house_price_prediction\
+Install the required packages:\
 
 bash
 Copy code
 pip install -r requirements.txt
 Data Description
-The dataset contains the following columns:
+##The dataset contains the following columns:\
 
-Number of bedrooms
-Number of bathrooms
-Living area
-Lot area
-Number of floors
-Waterfront presence
-Number of views
+1.Number of bedrooms
+2.Number of bathrooms
+3.Living area
+4.Lot area
+5.Number of floors
+6.Waterfront presence
+7.Number of views
 House condition
-House grade
-House area (excluding basement)
-Basement area
-Built year
-Renovation year
-Postal code
-Latitude
-Longitude
 Living area renovation
 Lot area renovation
 Number of schools nearby
 Distance from the airport
 Price
-Data Preprocessing
+##Data Preprocessing
 Loading Data:
 
 Load the dataset using pandas.
 Cleaning Data:
 
-Remove duplicates.
-Handle missing values.
-Treat outliers, specifically in the price_per_sqft column.
-Feature Engineering:
+Remove duplicates.\
+Handle missing values.\
+Treat outliers, specifically in the price_per_sqft column.\
+##Feature Engineering:
 
-One-Hot Encode categorical features.
-Scale numerical features using a standard scaler.
-Pipeline:
+One-Hot Encode categorical features.\
+Scale numerical features using a standard scaler.\
+##Pipeline:
 
-Apply a pipeline to streamline preprocessing steps.
-Model Training
-Train different regression models to predict house prices:
+Apply a pipeline to streamline preprocessing steps.\
+Model Training\
+##Train different regression models to predict house prices:
 
-Linear Regression
-Lasso Regression
-Ridge Regression
-Model Evaluation
-Evaluate the models using the following metrics:
+1.Linear Regression\
+2.Lasso Regression\
+3.Ridge Regression\
+4.Model Evaluation\
+##Evaluate the models using the following metrics:
 
-Mean Squared Error (MSE)
-Mean Absolute Error (MAE)
-R-squared (R²) Score
-Model Deployment
-Save the best-performing model and deploy it using a web interface.
+1.Mean Squared Error (MSE)\
+2.Mean Absolute Error (MAE)\
+3.R-squared (R²) Score\
+4.Model Deployment\
+5.Save the best-performing model and deploy it using a web interface.\
 
-Save the Model:
+##Save the Model:
 
-python
-Copy code
-import joblib
-joblib.dump(model, 'best_model.pkl')
-Create a Web Interface:
+python\
+Copy code\
+import joblib\
+joblib.dump(model, 'best_model.pkl')\
+#Create a Web Interface:
 
-Use PyCharm to create a Python script to load the saved model and handle user input.
-Develop an index.html file for the web interface to take user inputs and display predictions.
-Python Code Skeleton
-python
-Copy code
+Use PyCharm to create a Python script to load the saved model and handle user input.\
+Develop an index.html file for the web interface to take user inputs and display predictions.\
+Python Code Skeleton\
+python\
+Copy code\
 # app.py
 from flask import Flask, request, jsonify, render_template
 import joblib
@@ -141,15 +133,15 @@ Copy code
 </body>
 </html>
 Usage
-Run the Flask app:
+##Run the Flask app:
 
 bash
 Copy code
 python app.py
 Access the web interface at http://127.0.0.1:5000/.
 
-Contributing
+##Contributing
 Contributions are welcome! Please fork the repository and submit a pull request.
 
-License
+##License
 This project is licensed under the MIT License - see the LICENSE file for details.
