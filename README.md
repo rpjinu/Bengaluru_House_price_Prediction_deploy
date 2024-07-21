@@ -19,7 +19,7 @@ This project aims to predict house prices in Bengaluru using various regression 
 
 bash
 Copy code
-git clone https://github.com/yourusername/baengaluru_house_price_prediction.git
+git clone https://github.com/rpjinu/baengaluru_house_price_prediction.git
 ##Navigate to the project directory:
 
 bash\
