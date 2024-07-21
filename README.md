@@ -33,19 +33,19 @@ pip install -r requirements.txt
 Data Description
 ##The dataset contains the following columns:\
 
-1.Number of bedrooms
-2.Number of bathrooms
-3.Living area
-4.Lot area
-5.Number of floors
-6.Waterfront presence
-7.Number of views
-House condition
-Living area renovation
-Lot area renovation
-Number of schools nearby
-Distance from the airport
-Price
+1.Number of bedrooms\
+2.Number of bathrooms\
+3.Living area\
+4.Lot area\
+5.Number of floors\
+6.Waterfront presence\
+7.Number of views\
+House condition\
+Living area renovation\
+Lot area renovation\
+Number of schools nearby\
+Distance from the airport\
+Price\
 ##Data Preprocessing
 Loading Data:
 
